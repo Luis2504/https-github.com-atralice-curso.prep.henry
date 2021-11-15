@@ -1,0 +1,85 @@
+Solucion de la tarea Lección 3: Javascript II (Flujos de control, operadores de comparación, bucles for).
+
+
+BUCLE FOR
+
+Un BUCLE es lo mismo que un ciclo; se define como algo que se repite consecutivamente;
+así un bucle es una serie de tares que se repiten consecutivamente; ejemplo, cuando vas y regresas de la escuela o cuando sacas a pasear el perro cada dia de la semana; asi para ir a la escuela, primero tienes que ducharte, luego desayunar, tomar el autobus, visto esto como una serie de instrucciones; en programacion un tipo de ciclo o bucle FOR para que un programa de computadora realice una tarea tambien debe seguir instrucciones las cuales se digitan entre parentesis, en este orden; cantidades de veces que repites la tarea, cuando terminar de realizar esta tarea, y el tamaño de paso (que tan rápido realizas la tarea), luego se abre una llave y se digita larea a realizar
+
+
+Ejemplo; BUCLE FOR 'DIAS QUE VAS A LA ESCUELA'
+
+
+
+for (dia de incio, dia final, un dia){
+
+    labor realizada
+    }
+    
+    
+En terminos de variable sería 
+    
+for (i=0; i<=5; i=i+1){
+    console.log(i)
+     }
+
+En est caso i=0 sería el dia de inicio 1; notando que el paso 1 seria sumar 1, i<= 5 será el dia ultimo 5 cuando el programa deja de realizar repeticiones y j=j+1 seria el increemnto de paso en 1.
+
+
+OPERADORES LÓGICOs BOOLEANOS ( Y '$$', DIFERENTE DE '||" Y NEGACIÓN "!)
+
+los operadores lógicos "y',  "||", y "negacion" permiten dar sentecia de verdad (verdadera true) o falcedad (falso false) a una sentencia
+
+
+BOOLEANO C0NJUNCION AND $$
+
+asi si vas a la esucela y sacas a pasear el perro usaras el operador lógico $$ y seria una sentencia verdadera (true) al igual que si no realizas alguna de las dos tareas y si no realizas las dos tareas la sentencia sería falsa (false);
+si niegas un centencia esta adquiere valor booleano contrario ( false o true). 
+
+IR A LA ESCUELA  $$     SACAR A PASEAR EL PERRO  afirmacion       negando afirmación (!)
+
+   true                       true                  true               false
+   true                       false                 false              true
+   false                      true                  false              true
+   false                      false                 false              true
+   
+BOOLEANO DISJUNCION OR '||'
+
+El booleano || significa 'o' , es una tarea o es la otra, asi ; la sentencia sacas a pasear el perro o vas a la escuela sería verdadera, sacas el perro o no vas a la escuela es falsa, no sacas el perro o  vas a la escuela falsa, no sacar el perro o no vas a la ecuela falsa.
+
+
+IR A LA ESCUELA  $$     SACAR A PASEAR EL PERRO  afirmacion       negando afirmación (!)
+
+   true                       true                  true              false
+   true                       false                 true              false
+   false                      true                  true              false
+   false                      false                 false             true
+  
+  
+  BOOLENAO NEGACION NOT '!'
+   
+El booleano ! significa 'negacion' niega cualquier tarea y le da el caracter contario. 
+
+
+IR A LA ESCUELA  $$     SACAR A PASEAR EL PERRO  afirmacion       negando afirmación (!)
+
+   true                       true                  true              false
+   true                       false                 true              false
+   false                      true                  true              false
+   false                      false                 false             true   
+   
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
