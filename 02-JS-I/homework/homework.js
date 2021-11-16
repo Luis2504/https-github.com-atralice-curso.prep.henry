@@ -114,62 +114,112 @@ mayorQueCincuenta(20);
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
+  var resto = x % y;
+  return resto;
 }
+
+obtenerResto(21,5)
+
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
+  if (num % 2 == 0){
+    return true;
+  }
+  return false;
 }
+
+esPar(2)
+esPar(3)
+
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
+  if (num % 2 || 0){
+
+    return true;
+
+  }
+  return false;
 }
+
+esImpar(2)
+esImpar(3)
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  console.log(num**2)
+  console.log(Math.pow(num,2))
 }
 
 elevarAlCuadrado(2)
+
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  var cubo = Math.pow(num,3);
-
+  console.log(Math.pow(num,3));
 }
-elevarAlCubo(2) 
+
+elevarAlCubo(2)
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
+  var dandoValor = Math.pow(num,exponent);
+  return dandoValor;
 }
+
+elevar(2,3)
 
 function redondearNumero(num) {
   // Redondea "num" y devuélvelo
   // Tu código:
+
+  const numero = Math.pow(num);
+
+  return numero;
 }
+
+redondearNumero(5.5)
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba y devuélvelo
   // Tu código:
+  var numero = Math.ceil(num);
+
+  return numero
+
 }
+
+redondearHaciaArriba(2.1)
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
+  var saludo = 'Hello my frends';
+
+  console.log(saludo + str)
+
 }
+
+agregarSimboloExclamacion('!')
+
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
+  var MiNombre=nombre + apellido
+  return MiNombre;  
 }
+  
+combinarNombres('Luis', 'Jojoa')
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
